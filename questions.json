@@ -1,0 +1,166 @@
+{
+  "Artificial Intelligence": [
+    {
+      "question": "Which of the following is NOT an application of AI?",
+      "options": ["Spam email filtering", "Face recognition", "Spreadsheet calculations", "Chatbots"],
+      "answer": "Spreadsheet calculations",
+      "description": "Spreadsheet calculations are deterministic and rule-based, not intelligent decision-making systems."
+    },
+    {
+      "question": "Which technique is used by AI systems to learn from experience?",
+      "options": ["Machine Learning", "Deep Learning", "Expert Systems", "Planning"],
+      "answer": "Machine Learning",
+      "description": "Machine learning allows systems to automatically learn and improve from experience without being explicitly programmed."
+    },
+    {
+      "question": "Which branch of AI deals with reasoning and knowledge representation?",
+      "options": ["Cognitive Science", "Neural Networks", "Expert Systems", "Fuzzy Logic"],
+      "answer": "Expert Systems",
+      "description": "Expert systems are designed to emulate human experts and reason using stored knowledge and inference rules."
+    },
+    {
+      "question": "Which of these is an example of Natural Language Processing?",
+      "options": ["Speech recognition", "Image generation", "Path planning", "3D rendering"],
+      "answer": "Speech recognition",
+      "description": "Speech recognition is part of NLP that enables machines to understand spoken language."
+    },
+    {
+      "question": "Which subfield of AI is related to human-like vision?",
+      "options": ["Computer Vision", "Machine Learning", "Robotics", "Fuzzy Logic"],
+      "answer": "Computer Vision",
+      "description": "Computer vision enables computers to interpret and process visual information from the world."
+    }
+  ],
+
+  "Machine Learning": [
+    {
+      "question": "Which algorithm is used for classification problems?",
+      "options": ["K-Nearest Neighbors", "K-Means", "Apriori", "PageRank"],
+      "answer": "K-Nearest Neighbors",
+      "description": "KNN classifies new samples based on the majority label of its nearest neighbors."
+    },
+    {
+      "question": "Which learning type uses labeled data?",
+      "options": ["Supervised Learning", "Unsupervised Learning", "Reinforcement Learning", "Semi-supervised Learning"],
+      "answer": "Supervised Learning",
+      "description": "Supervised learning relies on labeled data to train models for prediction tasks."
+    },
+    {
+      "question": "Which algorithm is used for clustering?",
+      "options": ["K-Means", "Decision Tree", "Naive Bayes", "Logistic Regression"],
+      "answer": "K-Means",
+      "description": "K-Means groups data points into clusters based on similarity."
+    },
+    {
+      "question": "What is the purpose of the cost function in ML?",
+      "options": ["To measure error", "To improve accuracy", "To shuffle data", "To increase bias"],
+      "answer": "To measure error",
+      "description": "The cost function quantifies how far predictions are from the actual values."
+    },
+    {
+      "question": "Which of the following prevents overfitting?",
+      "options": ["Regularization", "Batch normalization", "Data augmentation", "Learning rate decay"],
+      "answer": "Regularization",
+      "description": "Regularization techniques like L1/L2 penalties help avoid overfitting by reducing model complexity."
+    }
+  ],
+
+  "Data Science": [
+    {
+      "question": "Which language is most commonly used in Data Science?",
+      "options": ["Python", "C++", "Java", "Ruby"],
+      "answer": "Python",
+      "description": "Python is preferred for its simplicity and powerful libraries like pandas, NumPy, and scikit-learn."
+    },
+    {
+      "question": "What does 'EDA' stand for?",
+      "options": ["Exploratory Data Analysis", "Efficient Data Access", "Enhanced Data Application", "External Data Arrangement"],
+      "answer": "Exploratory Data Analysis",
+      "description": "EDA helps understand data patterns, detect outliers, and form hypotheses using visualization."
+    },
+    {
+      "question": "Which library is used for data visualization?",
+      "options": ["Matplotlib", "Scikit-learn", "TensorFlow", "NLTK"],
+      "answer": "Matplotlib",
+      "description": "Matplotlib provides tools to create plots and visualizations for better data insights."
+    },
+    {
+      "question": "Which metric is used to evaluate regression models?",
+      "options": ["Mean Squared Error", "Accuracy", "Precision", "Recall"],
+      "answer": "Mean Squared Error",
+      "description": "MSE measures the average squared difference between predicted and actual values."
+    },
+    {
+      "question": "Which step comes first in a Data Science project?",
+      "options": ["Data Collection", "Model Training", "Feature Scaling", "Model Deployment"],
+      "answer": "Data Collection",
+      "description": "The first step is to collect relevant data that will be processed and analyzed later."
+    }
+  ],
+
+  "Computer Networks": [
+    {
+      "question": "What does TCP stand for?",
+      "options": ["Transmission Control Protocol", "Transfer Communication Path", "Transport Command Protocol", "Tele Control Protocol"],
+      "answer": "Transmission Control Protocol",
+      "description": "TCP ensures reliable communication and ordered delivery of packets in a network."
+    },
+    {
+      "question": "Which layer handles IP addressing?",
+      "options": ["Network Layer", "Data Link Layer", "Physical Layer", "Session Layer"],
+      "answer": "Network Layer",
+      "description": "The Network layer handles logical addressing (IP) and routing of packets."
+    },
+    {
+      "question": "Which device connects multiple networks?",
+      "options": ["Router", "Hub", "Switch", "Repeater"],
+      "answer": "Router",
+      "description": "A router connects different networks and directs data between them."
+    },
+    {
+      "question": "Which protocol is used for email transmission?",
+      "options": ["SMTP", "HTTP", "FTP", "SNMP"],
+      "answer": "SMTP",
+      "description": "SMTP (Simple Mail Transfer Protocol) sends emails between servers."
+    },
+    {
+      "question": "Which layer is responsible for encryption?",
+      "options": ["Presentation Layer", "Session Layer", "Network Layer", "Transport Layer"],
+      "answer": "Presentation Layer",
+      "description": "The Presentation Layer manages encryption and decryption for secure communication."
+    }
+  ],
+
+  "Operating Systems": [
+    {
+      "question": "Which of the following is an example of a real-time OS?",
+      "options": ["VxWorks", "Windows 10", "macOS", "Linux Mint"],
+      "answer": "VxWorks",
+      "description": "VxWorks is designed for time-critical applications like robotics and embedded systems."
+    },
+    {
+      "question": "Which OS component manages memory?",
+      "options": ["Memory Manager", "File System", "Scheduler", "Device Driver"],
+      "answer": "Memory Manager",
+      "description": "Memory Manager allocates and deallocates memory to processes efficiently."
+    },
+    {
+      "question": "Which scheduling algorithm is preemptive?",
+      "options": ["Round Robin", "FCFS", "SJF", "Priority (non-preemptive)"],
+      "answer": "Round Robin",
+      "description": "Round Robin scheduling allows each process a fixed time slice, ensuring fairness."
+    },
+    {
+      "question": "What is a deadlock?",
+      "options": ["Processes waiting indefinitely", "System crash", "High CPU usage", "Data corruption"],
+      "answer": "Processes waiting indefinitely",
+      "description": "Deadlock occurs when processes hold resources and wait for others indefinitely."
+    },
+    {
+      "question": "Which command lists files in Linux?",
+      "options": ["ls", "cd", "pwd", "cp"],
+      "answer": "ls",
+      "description": "The 'ls' command displays a list of files and directories in the current path."
+    }
+  ]
+}

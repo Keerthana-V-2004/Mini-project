@@ -1,0 +1,34 @@
+{
+    "Keerthana": {
+        "password": "1234",
+        "role": "user"
+    },
+    "Keerthan": {
+        "password": "123",
+        "role": "user"
+    },
+    "Kavya": {
+        "password": "1200",
+        "role": "user"
+    },
+    "Jyoti": {
+        "password": "1212",
+        "role": "user"
+    },
+    "Admin": {
+        "password": "123",
+        "role": "admin"
+    },
+    "Latha": {
+        "password": "123",
+        "role": "admin"
+    },
+    "Keerthanav": {
+        "password": "5454",
+        "role": "user"
+    },
+    "Jaya": {
+        "password": "1212",
+        "role": "user"
+    }
+}
